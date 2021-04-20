@@ -26,11 +26,13 @@
 //*****************************************************************
 //DECLARACIÓN DE FUNCIONES
 //*****************************************************************
-
+void lineal(int*,int*,int);
 //*****************************************************************
 //VARIABLES GLOBALES
 //*****************************************************************
-
+int i,j,h; //Variables para loops
+int temporal;  
+int contador=1;//contador para el llenado del arreglo 
 //*****************************************************************
 //PROGRAMA PRINCIPAL 
 //*****************************************************************
@@ -41,8 +43,9 @@ int main (int argc, char* argv[])
 	//******************************************************************	
 	double utime0, stime0, wtime0,utime1, stime1, wtime1; //Variables para medición de tiempos
 	int n; 	//n determina el tamaño del algorito dado por argumento al ejecutar
-	int i; //Variables para loops
-
+	FILE *f;
+	int *numeros;
+	int datos[20]={322486,14700764,3128036,6337399,61396,10393545,2147445644,125390003,450057883,187645041,1980098116,152503,5000,1493283650,214826,1843349527,1360839354,2109248666,2147470852,0};
 	//******************************************************************	
 	//Recepción y decodificación de argumentos
 	//******************************************************************	
@@ -58,6 +61,27 @@ int main (int argc, char* argv[])
 	{
 		n=atoi(argv[1]);
 	}
+	numeros = (int *)calloc(n,sizeof(int)); //Funcion calloc para el arreglo dinamico
+
+        if(numeros==NULL){
+                perror("ERROR AL RESERVAR MEMORIA");
+                exit(-2);
+        }else{
+                f=fopen("/home/javier/Practica2/desordenados.txt", "r");
+                if(f==NULL){
+                perror("ERORR EN LA LECTURA DEL ARCHIVO");
+                }else{
+                        while(contador<=n){
+                        fscanf(f,"%d",&numeros[h]);
+                        h++;
+                        contador++;
+                        }
+                }
+
+        }
+	
+	i=0;
+	j=0;
 	
 	//******************************************************************	
 	//Iniciar el conteo del tiempo para las evaluaciones de rendimiento
@@ -68,11 +92,8 @@ int main (int argc, char* argv[])
 	//******************************************************************	
 	//Algoritmo
 	//******************************************************************	
-	for(i=0;i<n;i++)
-		for(i=0;i<n;i++)
-			n=n;
 	//******************************************************************
-
+	lineal(datos,numeros,n);
 	//******************************************************************	
 	//Evaluar los tiempos de ejecución 
 	//******************************************************************
@@ -102,4 +123,14 @@ int main (int argc, char* argv[])
 //************************************************************************
 //DEFINICIÓN DE FUNCIONES 
 //************************************************************************
+void lineal(int arreglo[],int numeros[],int n){
 
+	for(i=0;i<20;i++){
+		for(j=0;j<n;j++){
+			if(arreglo[i]==numeros[j]){
+				break;
+			}
+		}
+	}
+
+}
