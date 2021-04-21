@@ -1,0 +1,1001 @@
+Busqueda Fibonacci: 
+Se busca: 322486   En: 1000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000140667 s
+
+Se busca: 14700764   En: 1000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 3128036   En: 1000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 6337399   En: 1000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000112057 s
+
+Se busca: 6139   En: 1000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 10393545   En: 1000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 2147445644   En: 1000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 1295390003   En: 1000000
+Valor: 1295390003 	Posición: -1
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 450057883   En: 1000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 187645041   En: 1000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 1980098116   En: 1000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000069141 s
+
+Se busca: 152503   En: 1000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 5000   En: 1000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000097752 s
+
+Se busca: 1493283650   En: 1000000
+Valor: 1493283650 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 214826   En: 1000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 1843349527   En: 1000000
+Valor: 1843349527 	Posición: -1
+
+real (Tiempo total)  0.0000088215 s
+
+Se busca: 1360839354   En: 1000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 2109248666   En: 1000000
+Valor: 2109248666 	Posición: -1
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 2147470852   En: 1000000
+Valor: 2147470852 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 0   En: 1000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000078678 s
+
+Se busca: 322486   En: 2000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 14700764   En: 2000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 3128036   En: 2000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 6337399   En: 2000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 6139   En: 2000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 10393545   En: 2000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 2147445644   En: 2000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 1295390003   En: 2000000
+Valor: 1295390003 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 450057883   En: 2000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 187645041   En: 2000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 1980098116   En: 2000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 152503   En: 2000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 5000   En: 2000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 1493283650   En: 2000000
+Valor: 1493283650 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 214826   En: 2000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 1843349527   En: 2000000
+Valor: 1843349527 	Posición: -1
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 1360839354   En: 2000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 2109248666   En: 2000000
+Valor: 2109248666 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 2147470852   En: 2000000
+Valor: 2147470852 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 0   En: 2000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000140667 s
+
+Se busca: 322486   En: 3000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000150204 s
+
+Se busca: 14700764   En: 3000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 3128036   En: 3000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000150204 s
+
+Se busca: 6337399   En: 3000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 6139   En: 3000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000150204 s
+
+Se busca: 10393545   En: 3000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000150204 s
+
+Se busca: 2147445644   En: 3000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 1295390003   En: 3000000
+Valor: 1295390003 	Posición: -1
+
+real (Tiempo total)  0.0000138283 s
+
+Se busca: 450057883   En: 3000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000138283 s
+
+Se busca: 187645041   En: 3000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 1980098116   En: 3000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000150204 s
+
+Se busca: 152503   En: 3000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 5000   En: 3000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 1493283650   En: 3000000
+Valor: 1493283650 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 214826   En: 3000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 1843349527   En: 3000000
+Valor: 1843349527 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 1360839354   En: 3000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000150204 s
+
+Se busca: 2109248666   En: 3000000
+Valor: 2109248666 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 2147470852   En: 3000000
+Valor: 2147470852 	Posición: -1
+
+real (Tiempo total)  0.0000140667 s
+
+Se busca: 0   En: 3000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 322486   En: 4000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000169277 s
+
+Se busca: 14700764   En: 4000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000150204 s
+
+Se busca: 3128036   En: 4000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000169277 s
+
+Se busca: 6337399   En: 4000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000181198 s
+
+Se busca: 6139   En: 4000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 10393545   En: 4000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 2147445644   En: 4000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 1295390003   En: 4000000
+Valor: 1295390003 	Posición: -1
+
+real (Tiempo total)  0.0000159740 s
+
+Se busca: 450057883   En: 4000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 187645041   En: 4000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 1980098116   En: 4000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 152503   En: 4000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000140667 s
+
+Se busca: 5000   En: 4000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 1493283650   En: 4000000
+Valor: 1493283650 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 214826   En: 4000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000138283 s
+
+Se busca: 1843349527   En: 4000000
+Valor: 1843349527 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 1360839354   En: 4000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000140667 s
+
+Se busca: 2109248666   En: 4000000
+Valor: 2109248666 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 2147470852   En: 4000000
+Valor: 2147470852 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 0   En: 4000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 322486   En: 5000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 14700764   En: 5000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000081062 s
+
+Se busca: 3128036   En: 5000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 6337399   En: 5000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 6139   En: 5000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 10393545   En: 5000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 2147445644   En: 5000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 1295390003   En: 5000000
+Valor: 1295390003 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 450057883   En: 5000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 187645041   En: 5000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000138283 s
+
+Se busca: 1980098116   En: 5000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000112057 s
+
+Se busca: 152503   En: 5000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 5000   En: 5000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000112057 s
+
+Se busca: 1493283650   En: 5000000
+Valor: 1493283650 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 214826   En: 5000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 1843349527   En: 5000000
+Valor: 1843349527 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 1360839354   En: 5000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 2109248666   En: 5000000
+Valor: 2109248666 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 2147470852   En: 5000000
+Valor: 2147470852 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 0   En: 5000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 322486   En: 6000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000140667 s
+
+Se busca: 14700764   En: 6000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 3128036   En: 6000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000150204 s
+
+Se busca: 6337399   En: 6000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 6139   En: 6000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000112057 s
+
+Se busca: 10393545   En: 6000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 2147445644   En: 6000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 1295390003   En: 6000000
+Valor: 1295390003 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 450057883   En: 6000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 187645041   En: 6000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 1980098116   En: 6000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 152503   En: 6000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000081062 s
+
+Se busca: 5000   En: 6000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 1493283650   En: 6000000
+Valor: 1493283650 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 214826   En: 6000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 1843349527   En: 6000000
+Valor: 1843349527 	Posición: -1
+
+real (Tiempo total)  0.0000069141 s
+
+Se busca: 1360839354   En: 6000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000140667 s
+
+Se busca: 2109248666   En: 6000000
+Valor: 2109248666 	Posición: -1
+
+real (Tiempo total)  0.0000112057 s
+
+Se busca: 2147470852   En: 6000000
+Valor: 2147470852 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 0   En: 6000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 322486   En: 7000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 14700764   En: 7000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 3128036   En: 7000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 6337399   En: 7000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 6139   En: 7000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 10393545   En: 7000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 2147445644   En: 7000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 1295390003   En: 7000000
+Valor: 1295390003 	Posición: 6031095
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 450057883   En: 7000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000112057 s
+
+Se busca: 187645041   En: 7000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000078678 s
+
+Se busca: 1980098116   En: 7000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 152503   En: 7000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000071526 s
+
+Se busca: 5000   En: 7000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 1493283650   En: 7000000
+Valor: 1493283650 	Posición: 6952609
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 214826   En: 7000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 1843349527   En: 7000000
+Valor: 1843349527 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 1360839354   En: 7000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 2109248666   En: 7000000
+Valor: 2109248666 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 2147470852   En: 7000000
+Valor: 2147470852 	Posición: -1
+
+real (Tiempo total)  0.0000097752 s
+
+Se busca: 0   En: 7000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000097752 s
+
+Se busca: 322486   En: 8000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 14700764   En: 8000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 3128036   En: 8000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 6337399   En: 8000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 6139   En: 8000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000081062 s
+
+Se busca: 10393545   En: 8000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000112057 s
+
+Se busca: 2147445644   En: 8000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000078678 s
+
+Se busca: 1295390003   En: 8000000
+Valor: 1295390003 	Posición: 6031095
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 450057883   En: 8000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000138283 s
+
+Se busca: 187645041   En: 8000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 1980098116   En: 8000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 152503   En: 8000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000112057 s
+
+Se busca: 5000   En: 8000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000069141 s
+
+Se busca: 1493283650   En: 8000000
+Valor: 1493283650 	Posición: 6952609
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 214826   En: 8000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 1843349527   En: 8000000
+Valor: 1843349527 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 1360839354   En: 8000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 2109248666   En: 8000000
+Valor: 2109248666 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 2147470852   En: 8000000
+Valor: 2147470852 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 0   En: 8000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 322486   En: 9000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 14700764   En: 9000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000140667 s
+
+Se busca: 3128036   En: 9000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 6337399   En: 9000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 6139   En: 9000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 10393545   En: 9000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 2147445644   En: 9000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000112057 s
+
+Se busca: 1295390003   En: 9000000
+Valor: 1295390003 	Posición: 6031095
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 450057883   En: 9000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 187645041   En: 9000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 1980098116   En: 9000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 152503   En: 9000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 5000   En: 9000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 1493283650   En: 9000000
+Valor: 1493283650 	Posición: 6952609
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 214826   En: 9000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 1843349527   En: 9000000
+Valor: 1843349527 	Posición: 8582392
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 1360839354   En: 9000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 2109248666   En: 9000000
+Valor: 2109248666 	Posición: -1
+
+real (Tiempo total)  0.0000090599 s
+
+Se busca: 2147470852   En: 9000000
+Valor: 2147470852 	Posición: -1
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 0   En: 9000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 322486   En: 10000000
+Valor: 322486 	Posición: 1613
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 14700764   En: 10000000
+Valor: 14700764 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 3128036   En: 10000000
+Valor: 3128036 	Posición: 14727
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 6337399   En: 10000000
+Valor: 6337399 	Posición: 29546
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 6139   En: 10000000
+Valor: 6139 	Posición: -1
+
+real (Tiempo total)  0.0000121593 s
+
+Se busca: 10393545   En: 10000000
+Valor: 10393545 	Posición: 48376
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 2147445644   En: 10000000
+Valor: 2147445644 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 1295390003   En: 10000000
+Valor: 1295390003 	Posición: 6031095
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 450057883   En: 10000000
+Valor: 450057883 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 187645041   En: 10000000
+Valor: 187645041 	Posición: -1
+
+real (Tiempo total)  0.0000147820 s
+
+Se busca: 1980098116   En: 10000000
+Valor: 1980098116 	Posición: -1
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 152503   En: 10000000
+Valor: 152503 	Posición: -1
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 5000   En: 10000000
+Valor: 5000 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 1493283650   En: 10000000
+Valor: 1493283650 	Posición: 6952609
+
+real (Tiempo total)  0.0000119209 s
+
+Se busca: 214826   En: 10000000
+Valor: 214826 	Posición: -1
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 1843349527   En: 10000000
+Valor: 1843349527 	Posición: 8582392
+
+real (Tiempo total)  0.0000100136 s
+
+Se busca: 1360839354   En: 10000000
+Valor: 1360839354 	Posición: -1
+
+real (Tiempo total)  0.0000131130 s
+
+Se busca: 2109248666   En: 10000000
+Valor: 2109248666 	Posición: 9822541
+
+real (Tiempo total)  0.0000109673 s
+
+Se busca: 2147470852   En: 10000000
+Valor: 2147470852 	Posición: 9999944
+
+real (Tiempo total)  0.0000128746 s
+
+Se busca: 0   En: 10000000
+Valor: 0 	Posición: 1
+
+real (Tiempo total)  0.0000109673 s
+
