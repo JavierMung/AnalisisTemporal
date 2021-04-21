@@ -22,84 +22,158 @@
 //********************************************************************************
 //DECLARACION DE ESTRUCTURAS
 //********************************************************************************
-
+struct Nodo {
+    int dato;
+    struct Nodo *izquierda;
+    struct Nodo *derecha;
+};
 //*****************************************************************
 //DECLARACIÓN DE FUNCIONES
 //*****************************************************************
-
+int BusquedaBinaria(int ini, int n, int toSearch, int numeros[]);
+void BusquedaExponencial(int n, int toSearch, int numeros[]);
 //*****************************************************************
 //VARIABLES GLOBALES
 //*****************************************************************
-
+int i,j,h; //Variables para loops
+int temporal;  
+int contador=1;//contador para el llenado del arreglo
+int *bin;//arreglo nuevo para el ordenamiento
 //*****************************************************************
 //PROGRAMA PRINCIPAL 
 //*****************************************************************
 int main (int argc, char* argv[])
-{	
-	//******************************************************************	
-	//Variables del main
-	//******************************************************************	
-	double utime0, stime0, wtime0,utime1, stime1, wtime1; //Variables para medición de tiempos
-	int n; 	//n determina el tamaño del algorito dado por argumento al ejecutar
-	int i; //Variables para loops
+{
+        //******************************************************************    
+        //Variables del main
+        //******************************************************************    
+        double utime0, stime0, wtime0,utime1, stime1, wtime1; //Variables para medición de tiempos
+        FILE *f;  //APuntador al fichero
+        // struct Nodo *raiz;
+	    int n;  //n determina el tamaño del algorito dado por argumento al ejecutar
+        int *numeros;
+        int toSearch; //Valor a buscar
+        //******************************************************************    
+        //Recepción y decodificación de argumentos
+        //******************************************************************    
 
-	//******************************************************************	
-	//Recepción y decodificación de argumentos
-	//******************************************************************	
+        //Si no se introducen exactamente 2 argumentos (Cadena de ejecución y cadena=n)
+        if (argc < 3)
+        {
+                printf("\nIndique el tamanio del algoritmo y valor a buscar - Ejemplo: [user@equipo]$ %s 100\n",argv[0]);
+                exit(1);
+        }
+        //Tomar el segundo argumento como tamaño del algoritmo
+        else
+        {
+                n=atoi(argv[1]);
+                toSearch = atoi(argv[2]);
+        }
 
-	//Si no se introducen exactamente 2 argumentos (Cadena de ejecución y cadena=n)
-	if (argc!=2) 
-	{
-		printf("\nIndique el tamanio del algoritmo - Ejemplo: [user@equipo]$ %s 100\n",argv[0]);
-		exit(1);
-	} 
-	//Tomar el segundo argumento como tamaño del algoritmo
-	else
-	{
-		n=atoi(argv[1]);
-	}
-	
-	//******************************************************************	
-	//Iniciar el conteo del tiempo para las evaluaciones de rendimiento
-	//******************************************************************	
-	uswtime(&utime0, &stime0, &wtime0);
-	//******************************************************************
-	
-	//******************************************************************	
-	//Algoritmo
-	//******************************************************************	
-	for(i=0;i<n;i++)
-		for(i=0;i<n;i++)
-			n=n;
-	//******************************************************************
+        numeros = (int *)calloc(n,sizeof(int)); //Funcion calloc para el arreglo dinamico
+	    bin = (int *)calloc(n,sizeof(int)); //Funcion calloc para el arreglo dinamico
 
-	//******************************************************************	
-	//Evaluar los tiempos de ejecución 
-	//******************************************************************
-	uswtime(&utime1, &stime1, &wtime1);
-	
-	//Cálculo del tiempo de ejecución del programa
-	printf("\n");
-	printf("real (Tiempo total)  %.10f s\n",  wtime1 - wtime0);
-	printf("user (Tiempo de procesamiento en CPU) %.10f s\n",  utime1 - utime0);
-	printf("sys (Tiempo en acciónes de E/S)  %.10f s\n",  stime1 - stime0);
-	printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
-	printf("\n");
-	
-	//Mostrar los tiempos en formato exponecial
-	printf("\n");
-	printf("real (Tiempo total)  %.10e s\n",  wtime1 - wtime0);
-	printf("user (Tiempo de procesamiento en CPU) %.10e s\n",  utime1 - utime0);
-	printf("sys (Tiempo en acciónes de E/S)  %.10e s\n",  stime1 - stime0);
-	printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
-	printf("\n");
-	//******************************************************************
+        if(numeros==NULL){
+                perror("ERROR AL RESERVAR MEMORIA");
+                exit(-2);
+        }else{
+                f=fopen("10millones.txt", "r");
+                if(f==NULL){
+                perror("ERORR EN LA LECTURA DEL ARCHIVO");
+                }else{
+                        while(contador<=n){
+                        fscanf(f,"%d",&numeros[h]);
+                        h++;
+                        contador++;
+                        }
+                }
 
-	//Terminar programa normalmente	
-	exit (0);	
+        }
+
+
+         //******************************************************************    
+        ////Iniciar el conteo del tiempo para las evaluaciones de rendimiento 
+        ////******************************************************************  
+        uswtime(&utime0, &stime0, &wtime0);
+        //******************************************************************
+
+        //******************************************************************    
+        //Algoritmo
+        //******************************************************************    
+
+        		
+		printf("Valor: %d\t", toSearch);
+        BusquedaExponencial(n, toSearch, numeros);  
+       
+        
+
+        //******************************************************************
+
+        //******************************************************************    
+        //Evaluar los tiempos de ejecución 
+        //******************************************************************
+        uswtime(&utime1, &stime1, &wtime1);
+
+        //Cálculo del tiempo de ejecución del programa
+        printf("\n");
+        printf("real (Tiempo total)  %.10f s\n",  wtime1 - wtime0);
+        /*printf("user (Tiempo de procesamiento en CPU) %.10f s\n",  utime1 - utime0);
+        printf("sys (Tiempo en acciónes de E/S)  %.10f s\n",  stime1 - stime0);
+        printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
+        printf("\n");
+
+        //Mostrar los tiempos en formato exponecial
+        printf("\n");
+        printf("real (Tiempo total)  %.10e s\n",  wtime1 - wtime0);
+        printf("user (Tiempo de procesamiento en CPU) %.10e s\n",  utime1 - utime0);
+        printf("sys (Tiempo en acciónes de E/S)  %.10e s\n",  stime1 - stime0);
+        printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
+        */
+        printf("\n");
+        //******************************************************************
+
+        //Terminar programa normalmente 
+        exit (0);
 }
 
 //************************************************************************
 //DEFINICIÓN DE FUNCIONES 
 //************************************************************************
+int BusquedaBinaria(int ini, int n, int toSearch, int numeros[]){
+    int inicio = ini, fin, mitad = (inicio+fin)/2;
+    //printf("ENTRE\n");
+    if(i < n-1)
+        fin = i;
+    else
+        fin = n-1;
 
+    while(inicio <= fin){
+        if(numeros[mitad] < toSearch)
+            inicio = mitad + 1;
+        else if(numeros[mitad] == toSearch)
+            return 1;
+        else
+            fin = mitad - 1;
+
+        mitad = (inicio+fin)/2;
+    }
+
+    return 0;
+}
+
+void BusquedaExponencial(int n, int toSearch, int numeros[]){
+    if(numeros[0] == toSearch)
+        printf("Encontrado en el primer espacio.\n");
+    else{
+        i = 1;
+        while(i < n && numeros[i] <= toSearch){
+            //printf("ENTRE\n");
+            i*=2;
+        }
+
+        if(BusquedaBinaria((i/2), n, toSearch, numeros) == 1)
+            printf("Valor encontrado\n");
+        else
+            printf("Valor no encontrado.\n");
+    }
+}
