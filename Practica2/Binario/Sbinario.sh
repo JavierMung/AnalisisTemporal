@@ -1,4 +1,4 @@
-gcc binario.c tiempo.c -o binario
+gcc binaria.c tiempo.c -o binario
 ./binario 1000000 > binarioD.txt
 ./binario 2000000 >> binarioD.txt
 ./binario 3000000 >> binarioD.txt
