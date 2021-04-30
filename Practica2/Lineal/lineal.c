@@ -123,11 +123,11 @@ int main (int argc, char* argv[])
 //************************************************************************
 //DEFINICIÓN DE FUNCIONES 
 //************************************************************************
-void lineal(int arreglo[],int numeros[],int n){
+void lineal(int arreglo[],int numeros[],int n){ //FUNCION PARA ENCONTRAR UN ELEMENTO 
 
 	for(i=0;i<20;i++){
 		for(j=0;j<n;j++){
-			if(arreglo[i]==numeros[j]){
+			if(arreglo[i]==numeros[j]){ //SI SE ENCUENTRA EL DATO REALIZA UN BREAK
 				break;
 			}
 		}

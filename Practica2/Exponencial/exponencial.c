@@ -22,11 +22,7 @@
 //********************************************************************************
 //DECLARACION DE ESTRUCTURAS
 //********************************************************************************
-struct Nodo {
-    int dato;
-    struct Nodo *izquierda;
-    struct Nodo *derecha;
-};
+ 
 //*****************************************************************
 //DECLARACIÓN DE FUNCIONES
 //*****************************************************************
@@ -102,7 +98,7 @@ int main (int argc, char* argv[])
         //******************************************************************    
 
         		
-		printf("Valor: %d\t", toSearch);
+	printf("Valor: %d\t", toSearch);
         BusquedaExponencial(n, toSearch, numeros);  
        
         
@@ -139,7 +135,7 @@ int main (int argc, char* argv[])
 //************************************************************************
 //DEFINICIÓN DE FUNCIONES 
 //************************************************************************
-int BusquedaBinaria(int ini, int n, int toSearch, int numeros[]){
+int BusquedaBinaria(int ini, int n, int toSearch, int numeros[]){ //FUNCION PARA ENCONTRAR EL DATO ELEGIDO
     int inicio = ini, fin, mitad = (inicio+fin)/2;
     //printf("ENTRE\n");
     if(i < n-1)
@@ -161,7 +157,7 @@ int BusquedaBinaria(int ini, int n, int toSearch, int numeros[]){
     return 0;
 }
 
-void BusquedaExponencial(int n, int toSearch, int numeros[]){
+void BusquedaExponencial(int n, int toSearch, int numeros[]){ // FUNCION PRINCIPAL PARA LOS DATOS CUANDO SE ENCUENTRE EL DATO
     if(numeros[0] == toSearch)
         printf("Encontrado en el primer espacio.\n");
     else{

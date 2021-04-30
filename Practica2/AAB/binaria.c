@@ -141,13 +141,13 @@ int main (int argc, char* argv[]){
 //************************************************************************
 //DEFINICIÓN DE FUNCIONES 
 //************************************************************************
-struct Nodo *nuevoNodo(int dato) {
+struct Nodo *nuevoNodo(int dato) { //FUNCION PARA CREAR UN NUEVO NODO
     struct Nodo *nodo = (struct Nodo *) malloc(sizeof(struct Nodo));
     nodo->dato = dato;
     nodo->izquierda = nodo->derecha = NULL;
     return nodo;
 }
-void insertar(struct Nodo *nodo, int dato) {
+void insertar(struct Nodo *nodo, int dato) { //FUNCION PARA INSERTAR LOS NUMEROS DESORDENADOS
     if (dato > nodo->dato) {
         if (nodo->derecha == NULL) {
             nodo->derecha = nuevoNodo(dato);
@@ -162,7 +162,7 @@ void insertar(struct Nodo *nodo, int dato) {
         }
     }
 }
-void inorden(struct Nodo *nodo) {
+void inorden(struct Nodo *nodo) { //FUNCION QUE NO SE USA PERO ES PARA IMPRIMIR EL ARBOL INORDEN 
         if (nodo != NULL) {
                 inorden(nodo->izquierda);
                 bin[i]=nodo->dato;
@@ -170,7 +170,7 @@ void inorden(struct Nodo *nodo) {
                 inorden(nodo->derecha);
         }
 }
-void arbolbinario(int n, int numeros[]){
+void arbolbinario(int n, int numeros[]){ //FUNCION PRINCIPAL DEL ARBOL
         i=0;
         contador=0;
         raiz=nuevoNodo(numeros[i]);
@@ -182,7 +182,7 @@ void arbolbinario(int n, int numeros[]){
       //  inorden(raiz);
 }
 
-struct Nodo* arbolbinarioBusqueda(struct Nodo* raiz, int dato){
+struct Nodo* arbolbinarioBusqueda(struct Nodo* raiz, int dato){ // FUNCION QUE AYUDA A LA BUSQUEDA 
 
         if(raiz == NULL){
                 return NULL;

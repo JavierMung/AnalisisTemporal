@@ -101,7 +101,7 @@ int main (int argc, char* argv[])
         //******************************************************************    
 
         		
-		printf("Valor: %d \tPosición: %d\n", toSearch, BusquedaBinaria(n, toSearch, numeros));    
+		printf("Valor: %d \tPosición: %d\n", toSearch, BusquedaBinaria(n, toSearch, numeros));    //IMPRIME LOS DATOS DE LA BUSQUEDA
        
         
 
@@ -137,7 +137,7 @@ int main (int argc, char* argv[])
 //************************************************************************
 //DEFINICIÓN DE FUNCIONES 
 //************************************************************************
-int BusquedaBinaria(int n, int toSearch, int numeros[]){
+int BusquedaBinaria(int n, int toSearch, int numeros[]){ //FUNCION PARA LA BUSQUEDA BINARIA
     int inicio = 0, fin = n-1, mitad = (inicio+fin)/2;
 
     while(inicio <= fin){
