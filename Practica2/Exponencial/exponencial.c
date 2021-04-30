@@ -158,7 +158,7 @@ int BusquedaBinaria(int ini, int n, int toSearch, int numeros[]){ //FUNCION PARA
 }
 
 void BusquedaExponencial(int n, int toSearch, int numeros[]){ // FUNCION PRINCIPAL PARA LOS DATOS CUANDO SE ENCUENTRE EL DATO
-    if(numeros[0] == toSearch)
+    if(numeros[0] == toSearch) //SI LA PRIMER POSICION ES EL NUMERO A BUSCAR, IMPRIME 
         printf("Encontrado en el primer espacio.\n");
     else{
         i = 1;
@@ -167,7 +167,7 @@ void BusquedaExponencial(int n, int toSearch, int numeros[]){ // FUNCION PRINCIP
             i*=2;
         }
 
-        if(BusquedaBinaria((i/2), n, toSearch, numeros) == 1)
+        if(BusquedaBinaria((i/2), n, toSearch, numeros) == 1) 
             printf("Valor encontrado\n");
         else
             printf("Valor no encontrado.\n");

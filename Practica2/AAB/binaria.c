@@ -141,14 +141,23 @@ int main (int argc, char* argv[]){
 //************************************************************************
 //DEFINICIÓN DE FUNCIONES 
 //************************************************************************
+
+//PRACTICA 2
+//ANALISIS DE ALGORITMOS
+//EQUIPO AA 29/04/2021
+/*****       Juarez Vargas Leo Daniel 
+	     Miranda Quijano Manuel Alejandro
+	     Munguia Galeana Francisco Javier 	
+******/
+
 struct Nodo *nuevoNodo(int dato) { //FUNCION PARA CREAR UN NUEVO NODO
     struct Nodo *nodo = (struct Nodo *) malloc(sizeof(struct Nodo));
-    nodo->dato = dato;
-    nodo->izquierda = nodo->derecha = NULL;
+    nodo->dato = dato; //Se le asigana el valor a la estructura
+    nodo->izquierda = nodo->derecha = NULL; //SE CREAN LOS APUNTADORES A NULL
     return nodo;
 }
 void insertar(struct Nodo *nodo, int dato) { //FUNCION PARA INSERTAR LOS NUMEROS DESORDENADOS
-    if (dato > nodo->dato) {
+    if (dato > nodo->dato) { //AQUI SE ELIGE EN QUE PARTE DEL ARBOL DERECHA O IZQUIERDA 
         if (nodo->derecha == NULL) {
             nodo->derecha = nuevoNodo(dato);
         } else {
@@ -162,24 +171,15 @@ void insertar(struct Nodo *nodo, int dato) { //FUNCION PARA INSERTAR LOS NUMEROS
         }
     }
 }
-void inorden(struct Nodo *nodo) { //FUNCION QUE NO SE USA PERO ES PARA IMPRIMIR EL ARBOL INORDEN 
-        if (nodo != NULL) {
-                inorden(nodo->izquierda);
-                bin[i]=nodo->dato;
-                i++;
-                inorden(nodo->derecha);
-        }
-}
+
 void arbolbinario(int n, int numeros[]){ //FUNCION PRINCIPAL DEL ARBOL
         i=0;
         contador=0;
-        raiz=nuevoNodo(numeros[i]);
+        raiz=nuevoNodo(numeros[i]); //SE CREA EL ARBOL CON EL PRIMER DATO DEL ARREGLO 
         while(i<n){
-        	insertar(raiz,numeros[i]);
+        	insertar(raiz,numeros[i]); //SE INSERTA EL NUMERO EN EL ARBOL
         	i++;
         }
-      // i=0;
-      //  inorden(raiz);
 }
 
 struct Nodo* arbolbinarioBusqueda(struct Nodo* raiz, int dato){ // FUNCION QUE AYUDA A LA BUSQUEDA 

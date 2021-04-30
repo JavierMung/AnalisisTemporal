@@ -141,14 +141,14 @@ int BusquedaBinaria(int n, int toSearch, int numeros[]){ //FUNCION PARA LA BUSQU
     int inicio = 0, fin = n-1, mitad = (inicio+fin)/2;
 
     while(inicio <= fin){
-        if(numeros[mitad] < toSearch)
+        if(numeros[mitad] < toSearch) //SI EL NUMERO ES MAS GRANDE QUE LA MITAD DEL ARREGLO SE TOMA EL INICIO COMO LA MITAD +1
             inicio = mitad + 1;
-        else if(numeros[mitad] == toSearch)
+        else if(numeros[mitad] == toSearch) // SI EL NUMERO ES IGUAL A LA MITAD REGRESA LA MITAD
             return mitad+1;
         else
             fin = mitad - 1;
 
-        mitad = (inicio+fin)/2;
+        mitad = (inicio+fin)/2; //SI EL NUMERO ES MENOR LA MITAD SE AGARRA LA MITAD COMO EL FIN -1
     }
 
     return -1;
